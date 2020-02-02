@@ -10,6 +10,8 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Open+Sans+Condensed:300&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="homecoming.css">
 
 </head>
@@ -21,18 +23,19 @@
 
   <div class="main">
     <nav id="navbar" class="topnav animated slideInDown">
-      <a class="active" id="link1" onclick="checklasttab(1)" href="#">Home</a>
+      <a class="active" id="link1" onclick="checklasttab(1)" href="#">Home</a> 
       <a class="" id="link2" onclick="checklasttab(2)" href="#">Featured Guests</a>
       <a class="" id="link3" onclick="checklasttab(3)" href="#">Program</a>
       <a class="" id="link4" onclick="checklasttab(4)" href="#">Prizes</a>
       <a class="" id="link5" onclick="checklasttab(5)" href="#">RSVP</a>
       <a class="" id="link7" onclick="checklasttab(7)" href="#">Misc</a>
-      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <a href="javascript:void(0);" class="icon" onclick="myFunction2()">
         <i class="fa fa-bars"></i>
       </a>
     </nav>
     <div class="content">
       <div id="information">
+        <img id="responsiveimg" alt="homecoming logo" src="images/web logo.png" width="425" height="734">
         <h2 id="tab1" tabindex="-1"><strong><span id="red">ULTRA </span><span id="blue">ELECTRO </span><span id="yellow">MAGNETIC </span><span
               id="purple">POP </span> JAM-BOREE!</strong></h2>
         <p>A 90's Pinoy Rock <i>(Tunog Kalye)</i>-inspired event, based on the iconic band Eraserhead's debut album of the same
@@ -41,7 +44,7 @@
         </p>
         <p>Come as you are...or in your best 90's outfit.</p>
         <p>Join us in Mallberry Suites, 10th floor on Saturday, August 29, 2020.
-          <br>Registration is from 6-7 PM. Event Proper is from 7-11 PM.
+          <br>Registration is from 5:30-7 PM. Event Proper is from 7-11 PM.
           <br>See schedule of events in <a onclick="checklasttab(3)" href="#"><strong>Program</strong></a>.</p>
         <p>This will also commemorate <b>SMS Batch '95 <i>Unwonted Breed</i> 's 25th Reunion</b>.</p>
         <p><strong>FREE</strong> - only for Batch 1995 and former faculty/staff <i>(and their +1)</i>.</p>
@@ -58,41 +61,41 @@
         </ul>
         <p>There will be live band entertainment featuring famed local band <a onclick="checklasttab(2)"
             href="#"><strong>INSIDE CITY</strong></a>.</p>
-        <p>Hosted by local DJ personality <a onclick="checklasttab(2)" href="#"><strong>Bernie BitokBitok</strong></a>.
+        <p>Hosted by local DJ personality <a onclick="checklasttab(2)" href="#tab3"><strong>Bernie BitokBitok</strong></a>.
         </p>
-        <p>Official Photography by <a onclick="checklasttab(2)" href="#"><strong>Armand Ansaldo</strong></a>.
+        <p>Official Photography by <a onclick="checklasttab(2)" href="#tab4"><strong>Armand Ansaldo</strong></a>.
         </p>
       </div>
 
       <div id="featured" style="display: none;">
-        <h2 id="tab2" tabindex="-1"><strong>Inside City</strong></h2>
-        <img class="guests" alt="Inside City band group pic" src="images/InsideCity.jpg" width="300" height="300">
+        <h2 id="tab2"><strong>Inside City</strong></h2>
+        <img class="guests" alt="Inside City band group pic" src="images/InsideCity.jpg">
         <p>Inside City was formed in 2018, formerly known as Nobela.
           They were featured last year in ABS-CBN's newest talent reality show Your Moment!</p>
         <p>Band Members: Clyde Aquino - Vocalist, Mark Chester Crisostomo - Guitarist/ Back-up Vocals, Allan Satore -
           Bassist Back-up Vocals,
           Kris Peñero - Keyboardist/ Back-up Vocals, Jay Mark Crisostomo - Drummer Back-up Vocals.</p>
-        <p>Follow them on <a href="https://www.facebook.com/InsideCityPh/" target="_blank"><img alt="facebook icon"
+        <p><a href="https://www.facebook.com/InsideCityPh/" target="_blank"><img alt="facebook icon"
               src="images/fb.ico" width="40" height="40"></a></p>
-
+        <div id="tab3"></div>
         <h2 class="tab2"><strong>Bernie BitokBitok</strong></h2>
-        <img class="guests" alt="Bernie funny headshot" src="images/bernie.jpg" width="300" height="300">
+        <img class="guests" alt="Bernie funny headshot" src="images/bernie.jpg">
         <p>Radio Jock / Radio Head - ABS-CBN MOR 91.9 Cagayan de Oro</p>
         <p>Local TV Host - ABS-CBN Local Morning Host (Pamahaw Espesyal)</p>
         <p>Awarded as the 2-time Event Host of the year in 2016</p>
         <p>Bisaya VLOGGER • Stand-up Bisaya Comedian </p>
-        <p>Follow him on <a href="https://www.facebook.com/BitokbitokUniversityVLOGS/" target="_blank">
+        <p><a href="https://www.facebook.com/BitokbitokUniversityVLOGS/" target="_blank">
         <img class="icons" alt="facebook icon" src="images/fb.ico" width="40" height="40"></a>
         <a href="https://www.youtube.com/channel/UCjRYLPILANCnibwleXcmdPw" target="_blank">
         <img class="icons" alt="youtube icon" src="images/youtube.png" width="25" height="25"></a></p>
-
+        <div id="tab4"></div>
         <h2 class="tab2"><strong>Armand Ansaldo</strong></h2 class="tab2">
-        <img class="guests" alt="Armand Ansaldo Photography logo" src="images/armand.jpg" width="300" height="300">
+        <img class="guests" alt="Armand Ansaldo Photography logo" src="images/armand.jpg">
         <p>Armand Ansaldo started his career as the Business Manager of Ansaldo Studios in 2008. The need of manpower 
           in professional photography has led him to attend photography schools, workshops and training.</p>
         <p>Armand Ansaldo Photography has been all over the Philippines and has also reached parts of U.S.A., Mexico,
           Singapore, Bangkok, Cambodia, Vietnam, Hong Kong, Macau, and the Dominican Republic.</p>
-        <p>Check his work on <a href="https://www.facebook.com/armandansaldophotography/" target="_blank">
+        <p><a href="https://www.facebook.com/armandansaldophotography/" target="_blank">
         <img class="icons" alt="facebook icon" src="images/fb.ico" width="40" height="40"></a>
         <a href="https://www.instagram.com/armandansaldophotography/" target="_blank">
         <img class="icons" alt="instagram icon" src="images/instagram.png" width="25" height="25"></a>
@@ -100,36 +103,40 @@
       </div>
 
       <div id="program" style="display: none;">
-        <h2 id="tab3" tabindex="-1"><strong>Schedule of Events</strong></h2>
-        <p>3 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-          dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-          ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-          nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-          anim id est laborum.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-          dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-          ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-          nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-          anim id est laborum.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-          dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-          ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-          nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-          anim id est laborum.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-          dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-          ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-          nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-          anim id est laborum.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-          dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-          ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-          nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-          anim id est laborum.</p>
+        <h2><strong>Schedule of Events</strong></h2>
+        <p><strong>6 - 7 <span style="margin-left: 8px;">pm</span></strong> Registration</p>
+        <p><strong>7 - 11 pm </strong>Event Proper</span></p>
+        <ol id="details">
+          <li>National Anthem</li>
+          <li>Safety Awareness</li>
+          <li>Host Entrance</li>
+          <li>Acknowledgement of Attendees by Batch</li>
+          <li>Welcome Remarks</li>
+          <li>Opening Dance Number (Batch '95)</li>
+          <li>Invocation/Prayer</li> 
+          <li>1st Raffle (3 minor items)</li>
+          <li>Dinner + Live Band Set 1</li>
+          <li>Game</li>
+          <li>2nd Raffle (3 major items)</li>
+          <li>Early Bird Awardees</li>
+          <li>Game</li>
+          <li><strong style="color:red;">(✱)</strong> Batch Presentations</li>
+          <li>Special Awards</li>
+          <li>Acknowledgment of Teachers</li>
+          <li>Closing Remarks</li>
+          <li>Passing of the Legacy Plant to Next Host Batch</li>
+          <li>3rd Raffle (2 Grand Prizes)</li>
+          <li>Live Band final set</li>
+          <li>Fellowship/Party</li>
+        </ol>
+        <p><strong style="color:red;">(✱)</strong> Batch Presentations are definitely encouraged but not required. In in the interest of time,
+        we request that presentations be no longer than 5 min per batch. Please send info and necessary materials to <a href="mailto:doybrian@me.com">doybrian@me.com</a> to 
+        properly include your presentation in the program.</p>
       </div>
 
       <div id="prizes" style="display: none;">
-        <h2 id="tab4" tabindex="-1"><strong>Raffle Prizes</strong></h2>
+        <h2><strong>Raffle Prizes</strong></h2>
+        <img id="appliance" alt="assorted appliances" src="images/appliances.png">
         <p><u>Minor</u></p>
         <ul>
           <li>Coffee Maker</li>
@@ -149,7 +156,7 @@
         </ul><br>
         <h2><strong>Game Prizes</strong></h2>
         <ul>
-          <li>Premium imported Ghirardelli chocolates</li>
+          <li>Premium imported <a href="https://www.ghirardelli.com/" target="_blank">Ghirardelli</a> chocolates</li>
         </ul><br>
         <h2><strong>Other Prizes</strong></h2>
         <ul>
@@ -164,16 +171,18 @@
       </div>
 
       <div id="rsvp" style="display: none;">
-        <h2 id="tab5" tabindex="-1"><strong>Reserve Your Spot</strong></h2>
-        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeiNUPcNcImYj6aZn71AHkJp4PxckS_78h6-VFPDytWvmxnBQ/viewform?embedded=true" width="540" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+        <h2><strong>Reserve Your Spot</strong></h2>
+        <iframe id="survey" src="https://docs.google.com/forms/d/e/1FAIpQLSeiNUPcNcImYj6aZn71AHkJp4PxckS_78h6-VFPDytWvmxnBQ/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
       </div>
 
       <div id="misc" style="display: none;">
-        <h2 id="tab7" tabindex="-1"><strong>Miscellaneous</strong></h2>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/EmSAp9qfwH8" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <p>Official SMS Alumni Homecoming Teaser Video 1 (Nostalgic and Cute)</p><br>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/65IAXMfIqxc" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <p>Official SMS Alumni Homecoming Teaser Video 2 (Epic and Fun)</p>
+        <h2><strong>Miscellaneous</strong></h2>
+        <iframe class="videos" src="https://www.youtube.com/embed/EmSAp9qfwH8" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <p class="videotitles">Official SMS Alumni Homecoming Teaser Video 1 (Nostalgic and Cute)</p><br>
+        <p class="videolinks"><a href="https://www.youtube.com/embed/EmSAp9qfwH8">Official SMS Alumni Homecoming Teaser Video 1 (Nostalgic and Cute)</a></p><br>
+        <iframe class="videos" src="https://www.youtube.com/embed/65IAXMfIqxc" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <p class="videotitles">Official SMS Alumni Homecoming Teaser Video 2 (Epic and Fun)</p class="videotitles">
+        <p class="videolinks"><a href="https://www.youtube.com/embed/65IAXMfIqxc">Official SMS Alumni Homecoming Teaser Video 2 (Epic and Fun)</a></p>
       </div>
     </div>
   </div>

@@ -24,13 +24,11 @@ var lasttab = 1;
           case 1:
             document.getElementById("information").style.display = "";
             document.getElementById("link1").setAttribute("class", "active");
-            document.getElementById("tab1").focus();
             lasttab = 1;
             break;
           case 2:
             document.getElementById("featured").style.display = "";
             document.getElementById("link2").setAttribute("class", "active");
-            document.getElementById("tab2").focus();
             lasttab = 2;
             break;
           case 3:
@@ -41,7 +39,6 @@ var lasttab = 1;
           case 4:
             document.getElementById("prizes").style.display = "";
             document.getElementById("link4").setAttribute("class", "active");
-            document.getElementById("tab4").focus();
             lasttab = 4;
             break;
           case 5:
@@ -90,11 +87,11 @@ var lasttab = 1;
       }
 
       /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
-      function myFunction() {
-        var x = document.getElementById("navbar");
-        if (x.className === "topnav") {
-          x.className += " responsive";
-        } else {
-          x.className = "topnav";
-        }
-      }
+function myFunction2() {
+  var x = document.getElementById("navbar");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
