@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>SMS Alumni Homecoming 2020</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="homecoming.css">
+
+</head>
+
+<body>
+
+  <div class="sidenav">
+  </div>
+
+  <div class="main">
+    <nav id="navbar" class="topnav animated slideInDown">
+      <a class="active" id="link1" onclick="checklasttab(1)" href="#">Home</a>
+      <a class="" id="link2" onclick="checklasttab(2)" href="#">Featured Guests</a>
+      <a class="" id="link3" onclick="checklasttab(3)" href="#">Program</a>
+      <a class="" id="link4" onclick="checklasttab(4)" href="#">Prizes</a>
+      <a class="" id="link5" onclick="checklasttab(5)" href="#">RSVP</a>
+      <a class="" id="link7" onclick="checklasttab(7)" href="#">Misc</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </nav>
+    <div class="content">
+      <div id="information">
+        <h2 id="tab1" tabindex="-1"><strong><span id="red">ULTRA </span><span id="blue">ELECTRO </span><span id="yellow">MAGNETIC </span><span
+              id="purple">POP </span> JAM-BOREE!</strong></h2>
+        <p>A 90's Pinoy Rock <i>(Tunog Kalye)</i>-inspired event, based on the iconic band Eraserhead's debut album of the same
+          title, which provided
+          our generation's life sountrack.
+        </p>
+        <p>Come as you are...or in your best 90's outfit.</p>
+        <p>Join us in Mallberry Suites, 10th floor on Saturday, August 29, 2020.
+          <br>Registration is from 6-7 PM. Event Proper is from 7-11 PM.
+          <br>See schedule of events in <a onclick="checklasttab(3)" href="#"><strong>Program</strong></a>.</p>
+        <p>This will also commemorate <b>SMS Batch '95 <i>Unwonted Breed</i> 's 25th Reunion</b>.</p>
+        <p><strong>FREE</strong> - only for Batch 1995 and former faculty/staff <i>(and their +1)</i>.</p>
+        <p>All Other Alumni - <strong><span id="price">₱250 only!!!</span></strong><br><i>(We regret that we are unable
+            to accomodate alumni spouses and/or kids at this event.)</i></p>
+        <p>Registration fee includes:</p>
+        <ul>
+          <li>Food <i>(buffet style)</i> and a drink</li>
+          <li>Beer or alcoholic beverages <i>(while supplies last)</i></li>
+          <li>Cake <i>(Sir Roland Rivera's infamous mango cake!)</i> + coffee/tea</li>
+          <li>A raffle ticket <i>(check out our awesome </i><a onclick="checklasttab(4)"
+              href="#"><strong>Prizes</strong></a><i>)</i></li>
+          <li>And a complimentary "swag" bag filled with nostalgic and theme-appropriate items</li>
+        </ul>
+        <p>There will be live band entertainment featuring famed local band <a onclick="checklasttab(2)"
+            href="#"><strong>INSIDE CITY</strong></a>.</p>
+        <p>Hosted by local DJ personality <a onclick="checklasttab(2)" href="#"><strong>Bernie BitokBitok</strong></a>.
+        </p>
+        <p>Official Photography by <a onclick="checklasttab(2)" href="#"><strong>Armand Ansaldo</strong></a>.
+        </p>
+      </div>
+
+      <div id="featured" style="display: none;">
+        <h2 id="tab2" tabindex="-1"><strong>Inside City</strong></h2>
+        <img class="guests" alt="Inside City band group pic" src="images/InsideCity.jpg" width="300" height="300">
+        <p>Inside City was formed in 2018, formerly known as Nobela.
+          They were featured last year in ABS-CBN's newest talent reality show Your Moment!</p>
+        <p>Band Members: Clyde Aquino - Vocalist, Mark Chester Crisostomo - Guitarist/ Back-up Vocals, Allan Satore -
+          Bassist Back-up Vocals,
+          Kris Peñero - Keyboardist/ Back-up Vocals, Jay Mark Crisostomo - Drummer Back-up Vocals.</p>
+        <p>Follow them on <a href="https://www.facebook.com/InsideCityPh/" target="_blank"><img alt="facebook icon"
+              src="images/fb.ico" width="40" height="40"></a></p>
+
+        <h2 class="tab2"><strong>Bernie BitokBitok</strong></h2>
+        <img class="guests" alt="Bernie funny headshot" src="images/bernie.jpg" width="300" height="300">
+        <p>Radio Jock / Radio Head - ABS-CBN MOR 91.9 Cagayan de Oro</p>
+        <p>Local TV Host - ABS-CBN Local Morning Host (Pamahaw Espesyal)</p>
+        <p>Awarded as the 2-time Event Host of the year in 2016</p>
+        <p>Bisaya VLOGGER • Stand-up Bisaya Comedian </p>
+        <p>Follow him on <a href="https://www.facebook.com/BitokbitokUniversityVLOGS/" target="_blank">
+        <img class="icons" alt="facebook icon" src="images/fb.ico" width="40" height="40"></a>
+        <a href="https://www.youtube.com/channel/UCjRYLPILANCnibwleXcmdPw" target="_blank">
+        <img class="icons" alt="youtube icon" src="images/youtube.png" width="25" height="25"></a></p>
+
+        <h2 class="tab2"><strong>Armand Ansaldo</strong></h2 class="tab2">
+        <img class="guests" alt="Armand Ansaldo Photography logo" src="images/armand.jpg" width="300" height="300">
+        <p>Armand Ansaldo started his career as the Business Manager of Ansaldo Studios in 2008. The need of manpower 
+          in professional photography has led him to attend photography schools, workshops and training.</p>
+        <p>Armand Ansaldo Photography has been all over the Philippines and has also reached parts of U.S.A., Mexico,
+          Singapore, Bangkok, Cambodia, Vietnam, Hong Kong, Macau, and the Dominican Republic.</p>
+        <p>Check his work on <a href="https://www.facebook.com/armandansaldophotography/" target="_blank">
+        <img class="icons" alt="facebook icon" src="images/fb.ico" width="40" height="40"></a>
+        <a href="https://www.instagram.com/armandansaldophotography/" target="_blank">
+        <img class="icons" alt="instagram icon" src="images/instagram.png" width="25" height="25"></a>
+        <a href="http://www.armandansaldo.com" target="_blank"><img class="icons" alt="globe icon" src="images/globe.png" width="27" height="27" style="margin-left: 7px;"></a></p>
+      </div>
+
+      <div id="program" style="display: none;">
+        <h2 id="tab3" tabindex="-1"><strong>Schedule of Events</strong></h2>
+        <p>3 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+          dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+          ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+          nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+          anim id est laborum.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+          dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+          ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+          nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+          anim id est laborum.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+          dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+          ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+          nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+          anim id est laborum.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+          dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+          ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+          nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+          anim id est laborum.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+          dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+          ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+          nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+          anim id est laborum.</p>
+      </div>
+
+      <div id="prizes" style="display: none;">
+        <h2 id="tab4" tabindex="-1"><strong>Raffle Prizes</strong></h2>
+        <p><u>Minor</u></p>
+        <ul>
+          <li>Coffee Maker</li>
+          <li>Rice Cooker</li>
+          <li>Portable Blender</li>
+        </ul>
+        <p><u>Major</u></p>
+        <ul>
+          <li>Microwave</li>
+          <li>Washing Machine</li>
+          <li>Electric Fan</li>
+        </ul>
+        <p><strong><u>GRAND</u></strong></p>
+        <ul>
+          <li>Big Screen TV</li>
+          <li>Windows Laptop</li>
+        </ul><br>
+        <h2><strong>Game Prizes</strong></h2>
+        <ul>
+          <li>Premium imported Ghirardelli chocolates</li>
+        </ul><br>
+        <h2><strong>Other Prizes</strong></h2>
+        <ul>
+          <li style="margin-bottom: 10px;"><i>I-rally ang tropa para todo support sa event!</i></span><br><u>Largest
+              Batch in Attendance</u> - <strong>₱5000 cash prize!!!</strong></li>
+          <li style="margin-bottom: 10px;"><i>Bring out your creative side and put it on display through a batch
+              shirt.</i></span><br><u>Best Batch Shirt</u> - <strong>₱5000 cash prize!!!</strong><span></li>
+          <li>Plus a special <strong>Early Bird prize</strong> for the <u><i>first 10 attendees</i></u> to register at
+            the venue!</li>
+        </ul><br>
+        <p><u>Note</u>: <i>Prizes are subject to change at the discretion of the hosts. We will provide ample notification of any changes.</i></p><br>
+      </div>
+
+      <div id="rsvp" style="display: none;">
+        <h2 id="tab5" tabindex="-1"><strong>Reserve Your Spot</strong></h2>
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeiNUPcNcImYj6aZn71AHkJp4PxckS_78h6-VFPDytWvmxnBQ/viewform?embedded=true" width="540" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+      </div>
+
+      <div id="misc" style="display: none;">
+        <h2 id="tab7" tabindex="-1"><strong>Miscellaneous</strong></h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/EmSAp9qfwH8" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <p>Official SMS Alumni Homecoming Teaser Video 1 (Nostalgic and Cute)</p><br>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/65IAXMfIqxc" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <p>Official SMS Alumni Homecoming Teaser Video 2 (Epic and Fun)</p>
+      </div>
+    </div>
+  </div>
+
+    <script src="homecoming.js" type="text/javascript"></script>
+
+</body>
+
+</html>
