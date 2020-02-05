@@ -142,6 +142,14 @@ body {
     padding-top: 90px;
   }
 
+  @media screen and (min-width: 1350px) {
+    #appliance {
+      margin-top: 0;
+      width: 550px;
+      height: 450px;
+    }
+  }
+
 /* When the screen is less than 1085 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 1085px) {
   .topnav a:not(:first-child) {display: none;}
@@ -170,7 +178,7 @@ body {
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1025px) {
   .sidenav {
     display: none;
   }
@@ -180,6 +188,10 @@ body {
   }
   #responsiveimg {
     display: block;
+  }
+
+  .guests {
+    margin-bottom: 75px;
   }
 
 }
