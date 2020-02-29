@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Allura&display=swap" rel="stylesheet">
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -25,6 +26,7 @@
     <nav id="navbar" class="topnav animated slideInDown">
       <a class="active" id="link1" onclick="checklasttab(1)" href="#">Home</a> 
       <a class="" id="link2" onclick="checklasttab(2)" href="#">Featured Guests</a>
+      <a class="" id="link8" onclick="checklasttab(8)" href="#">Menu</a>
       <a class="" id="link3" onclick="checklasttab(3)" href="#">Program</a>
       <a class="" id="link4" onclick="checklasttab(4)" href="#">Prizes</a>
       <a class="" id="link5" onclick="checklasttab(5)" href="#">RSVP</a>
@@ -42,21 +44,22 @@
           title, which provided
           our generation's life sountrack.
         </p>
-        <p>Come as you are...or in your best 90's outfit.</p>
+        <p>Come as you are...or in your best 90's outfit or even glam rock look!</p>
         <p>Join us in Mallberry Suites, 10th floor on Saturday, August 29, 2020.
-          <br>Registration is from 5:30-7 PM. Event Proper is from 7-11 PM.
-          <br>See schedule of events in <a onclick="checklasttab(3)" href="#"><strong>Program</strong></a> especially regarding 
+          <br>Registration is from 5:30-7 PM. Event Proper is from 7-11 PM.</p>
+          <p>This will also commemorate <b>SMS Batch '95 <i>Unwonted Breed</i> 's 25th Reunion</b>.</p>
+          <p>See schedule of events in <a onclick="checklasttab(3)" href="#"><strong>Program</strong></a> especially regarding 
           <a onclick="checklasttab(3)" href="#presentations">Batch Presentations.</a></p>
-        <p>This will also commemorate <b>SMS Batch '95 <i>Unwonted Breed</i> 's 25th Reunion</b>.</p>
         <p><strong>FREE</strong> - only for Batch 1995 and former faculty/staff <i>(and their +1)</i>.</p>
         <p>All Other Alumni - <strong><span id="price">₱250 only!!!</span></strong> To be paid at the venue on the day of event.<br><i>(We regret that we are unable
             to accomodate alumni spouses and/or kids at this event.)</i></p>
         <p>Registration fee includes:</p>
         <ul>
-          <li>Food <i>(buffet style)</i> and a drink</li>
-          <li>Beer or alcoholic beverages <i>(while supplies last)</i></li>
+          <li>Food <i>(buffet style)</i> + lechon + a drink + dessert + coffee/tea <i>(See the complete </i><a onclick="checklasttab(8)"
+            href="#"><strong>Menu</strong></a><i>)</i></li>
           <li>Cake <i>(Sir Roland Rivera's infamous mango cake!)</i> + coffee/tea</li>
-          <li>A raffle ticket <i>(check out our awesome </i><a onclick="checklasttab(4)"
+          <li>Beer or alcoholic beverages <i>(while supplies last)</i></li>
+          <li>A raffle ticket <i>(Check out our awesome </i><a onclick="checklasttab(4)"
               href="#"><strong>Prizes</strong></a><i>)</i></li>
           <li>And a complimentary "swag" bag filled with nostalgic and theme-appropriate items</li>
         </ul>
@@ -107,10 +110,38 @@
         <p>Organizes weddings, birthdays, anniversaries and parties. For inquiries please contact 09161492379.</p>
       </div>
 
+      <div id="menu" style="display: none;">
+        <h2><strong>Service Menu</strong></h2>
+        <h4>Buffet</h4>
+        <ul>
+          <li>Calamari</li>
+          <li>Countryside Potato Salad</li><br>
+          <li>Crabmeat Soup</li><br>
+          <li>Beef Salpicao</li>
+          <li>Buttered Chicken</li>
+          <li>Sauteed Vegetables</li>
+          <li>Shrimp and Calamari Pasta</li><br>
+          <li>Lechon</li><br>
+          <li>Steamed White Rice</li><br>
+          <li>Fruit Salad</li>
+        </ul>
+        <h4>Dessert</h4>
+        <ul>
+          <li>Sir Roland's infamous Mango cake!</li>
+        </ul>
+        <h4>Beverages</h4>
+        <ul>
+          <li>Assorted Soda or Iced Tead</li>
+          <li>Assorted San Miguel products<li>
+          <li>(San Miguel Light, Lemon Flavored, Apple Flavored, Red Horse)</li>
+          <li>Coffee and Tea</li>
+        </ul>
+      </div>
+
       <div id="program" style="display: none;">
         <h2><strong>Schedule of Events</strong></h2>
-        <p><strong>5:30 - 7 pm</strong></p><p><u>Registration</u></p>
-        <p><strong>7 - 11 pm</strong></p><p><u>Event Proper</u></p>
+        <p><strong>5:30 - 7 pm</strong><br><span class="event">Registration</span></p>
+        <p><strong>7 - 11 pm</strong><br><span class="event">Event Proper</span></p>
         <ol id="details">
           <li>National Anthem</li>
           <li>Safety Awareness</li>
@@ -119,23 +150,23 @@
           <li>Welcome Remarks</li>
           <li>Opening Dance Number (Batch '95)</li>
           <li>Invocation/Prayer</li> 
-          <li>1st Raffle (3 minor items)</li>
-          <li>Dinner + Live Band Set 1</li>
+          <li>1st Raffle (minor prizes)</li>
+          <li>Dinner</li>
           <li>Game</li>
-          <li>2nd Raffle (3 major items)</li>
+          <li>2nd Raffle (major prizes)</li>
           <li>Early Bird Awardees</li>
           <li>Game</li>
           <li><strong style="color:red;">(✱)</strong> Batch Presentations</li>
           <li>Special Awards</li>
           <li>Acknowledgment of Teachers</li>
-          <li>Closing Remarks</li>
-          <li>Passing of the Legacy Plant to Next Host Batch</li>
-          <li>3rd Raffle (2 Grand Prizes)</li>
-          <li>Live Band final set</li>
+          <li>Closing Remarks by Sir Noel Silan</li>
+          <li>Passing of the Legacy Plant to Next Batch 1996</li>
+          <li>3rd Raffle (Grand Prizes)</li>
+          <li>Live Band performance</li>
           <li>Fellowship/Party</li>
         </ol>
         <p id="presentations"><strong style="color:red;">(✱)</strong> Batch Presentations are definitely encouraged but not required. It can be a video presentation, a group sing-along, interpretative dance,
-        tinikling, or even collaborate with another batch - the sky is the limit...oops, actually, we request that for presentations, <strong><u>5 minutes</u></strong> will be the limit. Please send info and necessary materials to 
+        tinikling, or collaborate with another batch - the sky is the limit...oops, actually, we request that <strong><u>5 minutes</u></strong> be the limit. Please send info and necessary materials to 
         <a href="mailto:doybrian@me.com">doybrian@me.com</a> to 
         properly include your presentation in the program.</p>
       </div>
@@ -143,19 +174,21 @@
       <div id="prizes" style="display: none;">
         <h2><strong>Raffle Prizes</strong></h2>
         <img id="appliance" alt="assorted appliances" src="images/appliances.png">
-        <p><u>Minor</u></p>
+        <p class="event">Minor</p>
         <ul>
           <li>Coffee Maker</li>
           <li>Rice Cooker</li>
           <li>Portable Blender</li>
+          <li>Electric Fan</li>
         </ul>
-        <p><u>Major</u></p>
+        <p class="event">Major</p>
         <ul>
           <li>Microwave</li>
           <li>Washing Machine</li>
-          <li>Electric Fan</li>
+          <li>Fitbit health tracker</li>
+          <li>Bluetooth speaker</li>
         </ul>
-        <p><strong><u>GRAND</u></strong></p>
+        <p class="event"><strong>Grand</strong></p>
         <ul>
           <li>Big Screen TV</li>
           <li>Windows Laptop</li>

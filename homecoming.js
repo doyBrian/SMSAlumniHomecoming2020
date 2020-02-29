@@ -51,6 +51,11 @@ var lasttab = 1;
           document.getElementById("link7").setAttribute("class", "active");
           lasttab = 7;
           break;
+          case 8:
+            document.getElementById("menu").style.display = "";
+            document.getElementById("link8").setAttribute("class", "active");
+            lasttab = 8;
+            break;
         }
       }
 
@@ -80,7 +85,11 @@ var lasttab = 1;
           case 7:
           document.getElementById("misc").style.display = "none";
           document.getElementById("link7").setAttribute("class", "");
-          break;
+            break;
+          case 8:
+            document.getElementById("menu").style.display = "none";
+            document.getElementById("link8").setAttribute("class", "");
+            break;
         }
 
         tabcontent(option);
